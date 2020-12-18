@@ -1,0 +1,19 @@
+#cheque {
+    background-color: rgb(164, 77, 77); 
+    color: white;
+    margin-top: 100px;
+
+}
+
+#price {
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+}
+
+#chequeimg {
+    width: 230px; 
+    margin-bottom: 20px; 
+    float: left; 
+    margin-top: 10px;
+}

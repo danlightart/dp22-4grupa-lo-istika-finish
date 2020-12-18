@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+{% block link %}
+    <title>Contact</title>
+    <link rel="stylesheet" rel="stylesheet" href="{{ url_for('static', filename='css/contact.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+{% endblock %}
+
+{% block body %}   
+  <div class="container p-0 ">
+    <div class="row">
+      <div class="col-md-4">
+        <h1><b>DARBA LAIKI</b></h1>
+        <table class="table table-bordered">
+          <tbody>
+            <tr>
+              <th scope="row">Pirmdiena</th>
+              <td id="time">8:30 - 17:30</td>
+            </tr>
+            <tr>
+              <th scope="row">Otrdiena</th>
+              <td id="time">8:30 - 17:30</td>
+            </tr>
+            <tr>
+              <th scope="row">Trešdiena</th>
+              <td id="time">8:30 - 17:30</td>
+            </tr>
+            <tr>
+              <th scope="row">Ceturtdiena</th>
+              <td id="time">8:30 - 17:30</td>
+            </tr>
+            <tr>
+              <th scope="row">Piektdiena</th>
+              <td id="time"> 8:30 - 17:30</td>
+            </tr>
+            <tr>
+              <th scope="row">Sestdiena</th>
+              <td id="time">Brīvdiena</td>
+            </tr>
+            <tr>
+              <th scope="row">Svētdiena</th>
+              <td id="time">Brīvdiena</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+        <div class="col-md-6 ml-auto">
+          <h1><b>REKVIZĪTI</b></h1>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <h4><b>SHOPPING SIA</b></h4>
+              <p><b>Juridiskā adrese:</b> Dzērbenes 27, Rīga, LV-1006</p>
+              <p><b>Biroja adrese:</b> Dzērbenes 27 – 311, Rīga, LV-1006</p>
+              <p><b>Vienotais reģistrācijas nr.:</b> 90000065703</p>
+              <p><b>E-pasts:</b> info@shopping.lv</p>
+              <p><b>Banku konti:</b></p>
+              <p>	LV22UNLA0056000120122</p>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container p-0">
+    <div class="row">
+      <div class="col">
+      <ul class="list-group">
+        <li class="list-group-item">
+          <p><img src="https://user-images.githubusercontent.com/70688014/102365172-ee0c0280-3fbf-11eb-8781-a883c2290acc.png" id="person"></p>
+          <h5 id="name"><b>Aleksandrs Ciuļa</b></h5>
+          <p><b>Mob:</b> +371 25241337</p>
+          <p><b>Tālrunis:</b> +371 6777 2221</p>
+          <p><b>E-pasts:</b></p>
+          <p>admin@curi0us.cc</p>
+          <p><b>Discord:</b> Curious#2125</p>
+        </li>
+      </ul>
+    </div>
+      <div class="col">
+        <ul class="list-group">
+          <li class="list-group-item">
+            <p><img src="https://user-images.githubusercontent.com/70688014/102365161-ec423f00-3fbf-11eb-940f-e69033890e73.png" id="person"></p>
+            <h5 id="name"><b>Poļina Vlasova</b></h5>
+            <p><b>Mob:</b> +371 20220708</p>
+            <p><b>Tālrunis:</b> +371 20220708</p>
+            <p><b>E-pasts:</b></p>
+            <p>polina_dazzle@inbox.lv</p>
+            <p><b>Discord:</b> Poli#9873</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="list-group">
+          <li class="list-group-item">
+            <p><img src="https://user-images.githubusercontent.com/70688014/102365169-ed736c00-3fbf-11eb-9cce-2a7cc3bcb938.png" id="person"></p>
+            <h5 id="name"><b>Daniils Adamovičs</b></h5>
+            <p><b>Mob:</b> +371 26943252</p>
+            <p><b>Tālrunis:</b> +371 26943252</p>
+            <p><b>E-pasts:</b></p>
+            <p>adamovic747@gmail.com</p>
+            <p><b>Discord:</b> DanLight#3486</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul class="list-group">
+          <li class="list-group-item">
+            <p><img src="https://user-images.githubusercontent.com/70688014/102365175-ef3d2f80-3fbf-11eb-839f-bf73185f58a2.png" id="person"></p>
+            <h5 id="name"><b>Grigoriy Pridacha</b></h5>
+            <p><b>Mob:</b> +371 29882949</p>
+            <p><b>Tālrunis:</b> +371 29882949</p>
+            <p><b>E-pasts:</b></p>
+            <p>grigorijpridacha@gmail.com</p>
+            <p><b>Discord:</b> vip_grifon_vip#2116</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+{% endblock %}

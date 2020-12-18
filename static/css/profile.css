@@ -1,0 +1,99 @@
+#logo {
+    position: absolute;
+    width: 160px;
+    margin-top: -27px;
+    margin-left: 45px;
+}
+
+#button {
+    position: absolute;
+    left: 620px;
+
+}
+
+#button1 {
+    position: absolute;
+    left: 870px;
+
+
+}
+#word {
+    position: absolute;
+    left: 278px;
+}
+
+#katalogs {
+    text-align: center;
+}
+
+#color {
+    background-color: rgb(102,39,39);
+    color: white;
+    width: 230px;
+    height: 30px;
+
+}
+#navbar {
+    height: 60px;
+}
+
+#heading {
+    text-align: center;
+}
+
+#phones {
+    width: 150px;
+}
+
+#lowerbar {
+    color: white;
+    background-color: rgb(108, 51, 51);
+    height: 150px;
+}
+
+#lowerbarheading {
+    margin-left: 20px;
+}
+
+
+/* Profile */
+
+#name {
+    padding-top: 50px;
+    padding-left: 0px;
+}
+
+#user {
+    width: 400px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#center {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#buttonsub {
+    background-color: rgb(177,84, 84);
+    color:white;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+#buttonsub2 {
+    background-color: rgb(177,84, 84);
+    color:white;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+#phones {
+    width: 150px;
+    margin-left: 80px;
+}
+
+#text {
+    margin-left: 80px;
+}

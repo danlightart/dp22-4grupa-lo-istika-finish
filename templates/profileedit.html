@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block link %}
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/profile.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+{% endblock %}
+
+{% block body %}   
+    <div class="container p-0 ">
+        <div class="row">
+            <div class="col-6"><img src="https://user-images.githubusercontent.com/70688014/102112512-76639980-3e40-11eb-8f46-cbb3ed4e2a7b.png" id="user"></div>
+            <div class="col-6" id="name"><h1>{{ username }}</h1>
+                <form action="/profile" me="POST">
+                    <table class="table table-borderless">
+                        <tbody>
+                        <tr>
+                            <th scope="row">Numurs:</th>
+                            <td><input type="text" class="form-control" aria-describedby="button-addon2" placeholder="Ievadiet savu numuru..." name='number'></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Adress:</th>
+                            <td><input type="text" class="form-control" aria-describedby="button-addon2" placeholder="Ievadiet savu adresi..." name='adress'></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pasts:</th>
+                            <td><input type="text" class="form-control" aria-describedby="button-addon2" placeholder="Ievadiet savu e-pastu..." name='email'></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Banku Karte:</th>
+                            <td><input type="text" class="form-control" aria-describedby="button-addon2" placeholder="Ievadiet savu bankas karti..." name='bank'></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div>
+                        <a href="/profile" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="buttonprof">Rediģēt</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-0 " id="center">
+        <div class="row">
+            <div class="col-6"><h3>Rezervētas preces</h3>
+                <div>
+                    <a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="buttonsub">PĀRSKATĪT</a>
+                </div>
+            </div>
+            <div class="col-6"><h3>Nopirks preces</h3>
+                <div>
+                    <a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="buttonsub">NOPĒRK</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

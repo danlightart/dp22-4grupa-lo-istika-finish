@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block link %}{% endblock %}
+</head>
+<body>
+    <div class="container p-0 ">
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar" style="background-color: rgb(177, 84, 84);">
+            <a class="navbar-brand" href="/"><img src="https://user-images.githubusercontent.com/70688014/102364696-6a521600-3fbf-11eb-997e-70e6b61d8d37.png" id="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="word">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/" style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/about"style="color: white;">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/#location" style="color: white;">Location</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/contact"style="color: white;">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="form-inline my-2 my-lg-0" action="/findproduct">
+                <button class="btn btn-light btn-sm" style="width: 220px; height: 30px" id="button">Find product</button>
+            </form>
+            {% if not session.auth %}
+            <form class="form-inline my-2 my-lg-0" action="auth/login">
+                <button class="btn btn-light btn-sm" style="width: 220px; height: 30px" id="button1">Sign in</button>
+            </form>
+            {% else %}
+            <form class="form-inline my-2 my-lg-0" action="/profile">
+                <button class="btn btn-light btn-sm" style="width: 220px; height: 30px" id="button1">Profile</button>
+            </form>
+            {% endif %}
+        </nav>
+    </div>
+{% block body %}{% endblock %}
+<div class="container p-0" id="lowerbar">
+        <div class="row" id="lowerbarheading" >
+          <div class="col">
+            <h4>Services</h4>
+            <p style="margin: 0;">• International freight</p>
+            <p style="margin: 0;">• Oversized cargo transport, project cargo</p>
+            <p style="margin: 0;">• Local and Baltic cargo transportation</p>
+            <p style="margin: 0;">• Cargo storage</p>
+          </div>
+          <div class="col">
+           <h4>Shopping SIA</h4>
+            <p style="margin: 0;">Juridiskā adrese: Dzērbenes 27, Rīga, LV-1006</p>
+            <p style="margin: 0;">Biroja adrese: Dzērbenes 27 – 311, Rīga, LV-1006</p>
+            <p style="margin: 0;">PVN reģistrācijas nr.: LV40003620080</p>
+            <p style="margin: 0;">E-pasts: info@shopping.lv</p>
+          </div>
+        </div>
+
+</body>
+</html>

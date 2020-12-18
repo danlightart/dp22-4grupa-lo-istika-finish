@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+
+{% block link %}
+    <title>Phones</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/productcatalog.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/usersee.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container p-3">
+    <div class="row">
+        <div class="col-md-3 bg-white text-dark p-0">
+            <table class="table table-borderless" id="katalogs" style="background-color: rgb(196, 196, 196);">
+                <tbody>
+                    <tr>
+                        <th><h3>Katalogs</h3></th>
+                    </tr>
+                    <tr>
+                        <td><a href="phones" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color" style="background-color: rgb(244, 181, 181); color: black;">Mobilie telefoni</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="computer" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Datori</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Datora korpusi</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Viedpulksteņi</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Planšetdatori</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Tastatūras</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Datorpēles</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Monitori</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Austiņas</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Mikrofoni</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Lādētāji</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Datu nesēji</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Projektori</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Printeri</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-9 bg-white text-dark">
+            <h1 id="heading">Mobilie telefoni, viedtālruņi</h1>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td><a class="navbar-brand" href="https://www.1a.lv/p/samsung-galaxy-m51-6-128gb-white/9ibw?mtd=search&pos=regular&src=searchnode"><img src="https://user-images.githubusercontent.com/70688014/102111985-c2620e80-3e3f-11eb-8acb-d860d5921f0a.png" id="phones"></a></td>
+                            <td><a class="navbar-brand" href="https://www.tet.lv/veikals/iphone-11-128gb-black.html?utm_source=salidzini&utm_medium=ad_item"><img src="https://user-images.githubusercontent.com/70688014/102111993-c3933b80-3e3f-11eb-8841-31a8e06a8ee6.png" id="phones"></a></td>
+                            <td><a class="navbar-brand" href="https://www.1a.lv/p/huawei-p40-pro-8-256gb-dual-silver-frost/8obu?mtd=search-popup&pos=autocoplete&src=searchnode"><img src="https://user-images.githubusercontent.com/70688014/102112040-d3128480-3e3f-11eb-94fe-defd7ae6fc7d.png" id="phones"></a></td>
+                            <td><a class="navbar-brand" href="https://topprice.lv/products/oneplus-7-pro-mirror-grey-6-67-amoled-1440-x-3120-pixels-qualcomm-sdm855-snapdragon-855-internal-ram-6-gb-128-gb-microsd-dual-sim-nano-sim-3g-4g-main-camera-48816-mp-secondary-camera/"><img src="https://user-images.githubusercontent.com/70688014/102112046-d443b180-3e3f-11eb-877c-291bb431af47.png" id="phones"></a></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">410,00€</th>
+                            <th scope="row">719,00€</th>
+                            <th scope="row">690,00€</th>
+                            <th scope="row">676,00€</th>
+                          </tr>
+                          <tr>
+                            <td>Samsung Galaxy M51 6/128GB</td>
+                            <td>Apple IPhone 11 128GB</td>
+                            <td>Huawei P40 Pro 8/256GB</td>
+                            <td>OnePlus 7 Pro 6/128GB</td>
+                          </tr>
+                          <tr>
+                            <td><button class="btn btn-light btn-sm" style="width: 180px; height: 40px" id="buttonsub"><img src="https://user-images.githubusercontent.com/70688014/102401636-54a71580-3fec-11eb-81a8-8f6b27047cc8.png" style="width: 33px;" ></button></td>
+                            <td><button class="btn btn-light btn-sm" style="width: 180px; height: 40px" id="buttonsub"><img src="https://user-images.githubusercontent.com/70688014/102401636-54a71580-3fec-11eb-81a8-8f6b27047cc8.png" style="width: 33px;" ></button></td>
+                            <td><button class="btn btn-light btn-sm" style="width: 180px; height: 40px" id="buttonsub"><img src="https://user-images.githubusercontent.com/70688014/102401636-54a71580-3fec-11eb-81a8-8f6b27047cc8.png" style="width: 33px;" ></button></td>
+                            <td><button class="btn btn-light btn-sm" style="width: 180px; height: 40px" id="buttonsub"><img src="https://user-images.githubusercontent.com/70688014/102401636-54a71580-3fec-11eb-81a8-8f6b27047cc8.png" style="width: 33px;" ></button></td>
+                          </tr>
+                          <tr>
+                            <ul id="posts">
+                            </ul>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

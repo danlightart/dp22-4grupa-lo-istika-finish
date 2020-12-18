@@ -1,0 +1,107 @@
+#logo {
+    position: absolute;
+    width: 160px;
+    margin-top: -27px;
+    margin-left: 45px;
+}
+
+#button {
+    position: absolute;
+    left: 620px;
+
+}
+
+#button1 {
+    position: absolute;
+    left: 870px;
+
+
+}
+#word {
+    position: absolute;
+    left: 278px;
+}
+
+#katalogs {
+    text-align: center;
+}
+
+#color {
+    background-color: rgb(102,39,39);
+    color: white;
+    width: 230px;
+    height: 30px;
+
+}
+#navbar {
+    height: 60px;
+}
+
+#heading {
+    text-align: center;
+}
+
+#phones {
+    width: 150px;
+}
+
+#lowerbar {
+    color: white;
+    background-color: rgb(108, 51, 51);
+    height: 150px;
+}
+
+#lowerbarheading {
+    margin-left: 20px;
+}
+
+h1 {
+    text-decoration: underline;
+    padding-bottom: 20px;
+    padding-top: 100px;
+    
+}
+
+#cart {
+    margin-right:20px; 
+    margin-left:20px;
+    background-color: rgb(235, 235, 235);
+}
+
+#buttonprof {
+
+    background-color: rgb(177,84, 84);
+    color:white;
+    width: 220px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+
+
+}
+#border {
+    outline: 1px solid rgba(82, 82, 82, 0.50);
+    padding-bottom: 200px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 20px
+
+}
+#cheque {
+    background-color: rgb(164, 77, 77); 
+    color: white;
+    margin-top: 100px;
+
+}
+
+#price {
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+}
+
+#chequeimg {
+    width: 230px; 
+    margin-bottom: 20px; 
+    float: left; 
+    margin-top: 10px;
+}

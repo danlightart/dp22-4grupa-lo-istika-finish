@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block link %}
+    <title>Computers</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/productcatalog.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+{% endblock %}
+
+{% block body %}
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-md-3 bg-white text-dark p-0">
+                    <table class="table table-borderless" id="katalogs" style="background-color: rgb(196, 196, 196);">
+                        <tbody>
+                            <tr>
+                                <th><h3>Katalogs</h3></th>
+                            </tr>
+                            <tr>
+                                <td><a href="phones" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Mobilie telefoni</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="computer" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color" style="background-color: rgb(244, 181, 181); color: black;">Datori</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Datora korpusi</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Viedpulksteņi</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Planšetdatori</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Tastatūras</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Datorpēles</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Monitori</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Austiņas</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Mikrofoni</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Lādētāji</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Datu nesēji</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Projektori</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" class="btn btn-white btn-mg active" role="button" aria-pressed="true" id="color">Printeri</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" role="button" aria-pressed="true"><img src="https://user-images.githubusercontent.com/70688014/102397265-54a41700-3fe6-11eb-9477-52f0f32e8fa8.png" id="phones"></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-9 bg-white text-dark">
+                    <h1 id="heading">Datori</h1>
+                    <table class="table">
+                        <tbody>
+                          <tr>
+                            <td><a class="navbar-brand" href="https://www.1a.lv/p/hp-250-g7-black-2d232ea-pl/91b4?mtd=search&pos=regular&src=searchnode"><img src="https://user-images.githubusercontent.com/70688014/102112208-0f45e500-3e40-11eb-9697-eb534d14ff9c.png" id="phones"></a></td>
+                            <td><a class="navbar-brand" href="https://www.1a.lv/p/lenovo-ideapad-c340-14iml-black-81tk00c0pb-pl/8ume?mtd=search&pos=regular&src=searchnode"><img src="https://user-images.githubusercontent.com/70688014/102112215-10771200-3e40-11eb-8684-f040bfc49b3f.png" id="phones"></a></td>
+                            <td><a class="navbar-brand" href="https://aio.lv/lv/portativie-un-personalie-datori/portativie-datori-un-ultrabooks/huawei-matebook-d-14-amd-notebook-gray-356-cm-14-1920-x-1080-pixels-amd-ryzen-5-8-gb-ddr4-sdram-512-gb-ssd-wi-fi-5-80211ac-windows-10-home:3472438"><img src="https://user-images.githubusercontent.com/70688014/102112216-110fa880-3e40-11eb-8cfb-bfab411a4e9e.png" id="phones"></a></td>
+                            <td><a class="navbar-brand" href="https://220.lv/lv/datortehnika/portativie-datori-un-plansetes/portativie-datori/portativais-dators-msi-gl65-leopard-9scxr-045xpl-8-gb?id=8309716&mid=6660397"><img src="https://user-images.githubusercontent.com/70688014/102112217-110fa880-3e40-11eb-8484-c9a114769bad.png" id="phones"></a></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">584,25€</th>
+                            <th scope="row">746,20€</th>
+                            <th scope="row">645,00€</th>
+                            <th scope="row">946,48€</th>
+                          </tr>
+                          <tr>
+                            <td>HP 250 G7 Black</td>
+                            <td>Lenovo Ideapad</td>
+                            <td>Huawei MateBook D14</td>
+                            <td>MSI GL65</td>
+                          </tr>
+                          <tr>
+                            <td><a class="navbar-brand" href="/panel"><img src="https://user-images.githubusercontent.com/70688014/102397261-540b8080-3fe6-11eb-9500-639f1926bddd.png" id="phones"></a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

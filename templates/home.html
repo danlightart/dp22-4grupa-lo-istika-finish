@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block link %}
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/home.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+{% endblock %}
+
+{% block body %}
+    <div class="container p-0">
+        <img src="https://user-images.githubusercontent.com/70688014/102102419-73fb4280-3e34-11eb-87ff-b8b5a1fd2a9b.png" id="photo">
+        <div><h2 class="text-left">TRANSPORTS EKSPEDĪCIJA LOĢISTIKA</h2>
+    </div>
+
+    <div class="container p-0">
+        <img src="https://user-images.githubusercontent.com/70688014/102102500-8e352080-3e34-11eb-8934-a0e358d92a53.png" id="photo">
+        <div><h2 class="text-right">AVIO UN EKSPRESPIEGĀDES</h2>
+    </div>
+
+    <div class="container p-0">
+        <img src="https://user-images.githubusercontent.com/70688014/102102537-98571f00-3e34-11eb-98d9-a1aa51cbf1f6.png" id="photo">
+        <div><h2 class="text-left">STARPTAUTISKI KRAVU PĀRVADĀJUMI</h2>
+    </div>
+
+    <div class="container p-0" style="margin-bottom: 40px; margin-top: 40px;">
+        <div class="row">
+          <div class="col">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p><img src="https://user-images.githubusercontent.com/70688014/102102661-c2104600-3e34-11eb-80ef-c1446ca3e999.png" id="person"></p>
+              <h5 id="name"><b>STARPTAUTISKIE KRAVU PĀRVADĀJUMI</b></h5>
+              <p id="name">SHOPPING piedāvā plašas iespējas un specializētus risinājumus pilnu kravu un daļkravu transportēšanai Baltijā, Eiropā, Krievijā un citās NVS valstīs noteiktos maršrutos un laikos.</p>
+            </li>
+          </ul>
+        </div>
+          <div class="col">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <p><img src="https://user-images.githubusercontent.com/70688014/102102807-e409c880-3e34-11eb-85e5-fc8f3dddb080.png" id="person"></p>
+                        <h5 id="name"><b>VIETĒJIE UN BALTIJAS KRAVU PĀRVADĀJUMI</b></h5>
+                        <p id="name" >SHOPPING nodrošina pilnu kravu un daļkravu pārvadājumus Latvijā un Baltijas valstu teritorijās. Latvijas, Igaunijas un Lietuvas teritorija ir vietējiem pārvadātājiem labi pazīstama.</p>
+                    </li>
+                </ul>
+          </div>
+          <div class="col">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <p><img src="https://user-images.githubusercontent.com/70688014/102102865-f552d500-3e34-11eb-895f-d03c4fad1088.png" id="person"></p>
+                        <h5 id="name"><b>JŪRAS KRAVU PĀRVADĀJUMI</b></h5>
+                        <p id="name" style="margin-bottom: 64px;">Nodrošinām konteinera tipa kravu pārvadājumus populārākajos virzienos Baltijā, Eiropā, Āzijā, Dienvidamerikā, Ziemeļamerikā, Ķīna u.c.</p>
+                    </li>
+                </ul>
+            </div>
+          <div class="col">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <p><img src="https://user-images.githubusercontent.com/70688014/102102930-056ab480-3e35-11eb-898c-6b94fa32909a.png" id="person"></p>
+                        <h5 id="name"><b>AVIO KRAVU PĀRVADĀJUMI</b></h5>
+                        <p id="name" style="margin-bottom: 88px;">Steidzamu sūtījumu ātrai un kvalitatīvai nogādāšanai gala mērķī Shopping nodrošina ar avio piegādēm. </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container p-0">
+        <div class="row">
+          <div class="col">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p><img src="https://user-images.githubusercontent.com/70688014/102102972-1287a380-3e35-11eb-8000-20c123540920.png" id="otherphoto"></p>
+              <h5 id="name"><b>NEGABARĪTA KRAVU TRANSPORTS, PROJEKTU KRAVAS</b></h5>
+              <p id="name">SHOPPING ir viens no loģistikas pakalpojumu sniedzējiem Latvijā, kam ir pieredze negabarīta kravu pārvadājumu organizācijā uz Skandināviju, Balkāniem, Krieviju un Rietumeiropas valstīm.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <p><img src="https://user-images.githubusercontent.com/70688014/102103007-1d423880-3e35-11eb-8ad1-ba9beb792e05.png" id="otherphoto"></p>
+                    <h5 id="name"><b>BĪSTAMO KRAVU PĀRVADĀJUMI</b></h5>
+                    <p id="name" style="margin-bottom: 87px;">Spiedāvājam drošas dažāda veida un izmēra (lielgabarīta, ķīmisko, sprādzienbīstamu, smagsvaru) kravu piegādes īsos termiņos Eiropā un Āzijā.</p>
+                </li>
+            </ul>
+      </div>
+
+      <div class="col">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <p><img src="https://user-images.githubusercontent.com/70688014/102103039-28956400-3e35-11eb-9e27-c2be899e942a.png" id="otherphoto"></p>
+                <h5 id="name"><b>KRAVU UZGLABĀŠANA</b></h5>
+                <p id="name" style="margin-bottom: 112px;">Lai kravas piegāde saņēmējam notiktu īstajā laikā, RITLOGISTIKA piedāvā iespēju uzglabāt klientu kravas noliktavā.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container p-0">
+        <h1 style="margin-top: 100px;" id="name"><a name='location'><b>Location</b></a></h1>
+        <img src="https://user-images.githubusercontent.com/70688014/102103084-36e38000-3e35-11eb-9ff8-9055d19039a5.png" id="photo">
+    </div>
+
+    <div class="container p-0">
+        <h3 style="margin-top: 100px;"><b>MUMS UZTICAS</b></h3>
+        <img src="https://user-images.githubusercontent.com/70688014/102103142-4b277d00-3e35-11eb-9e5a-463b108ef38d.png" id="uzticas">
+        <img src="https://user-images.githubusercontent.com/70688014/102103186-57abd580-3e35-11eb-96d8-2c4bf541b8be.png" id="uzticas">
+        <img src="https://user-images.githubusercontent.com/70688014/102103212-5f6b7a00-3e35-11eb-94e7-3ae971be4d58.png" id="uzticas">
+        <img src="https://user-images.githubusercontent.com/70688014/102103239-67c3b500-3e35-11eb-97f2-0688ff60b1e6.png" id="uzticas">
+        <img src="https://user-images.githubusercontent.com/70688014/102103263-6f835980-3e35-11eb-95ea-ef90931eb055.png" id="uzticas">
+    </div>
+    
+{% endblock %}
